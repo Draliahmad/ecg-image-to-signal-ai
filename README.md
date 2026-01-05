@@ -12,6 +12,7 @@ Support for Digital Health Integration:
 Facilitates integration of historical ECG data into electronic health records (EHRs), clinical decision-support systems, and population-scale cardiac datasets.
 Scalability for Global Health and Telecardiology:
 Particularly impactful in low-resource or remote settings where ECGs are commonly stored as images rather than raw digital signals.
+
 Foundation for Future Clinical Applications:
 Provides a modular framework adaptable to wearable ECG reconstruction, mobile health platforms, and AI-driven cardiology workflows.
 ## Overview
