@@ -26,6 +26,22 @@ This project bridges that gap by reconstructing digital ECG signals from images.
    - Smoothing & normalization
    - Error correction
    - Signal validation
+## Figures
+
+### Figure 1 — ECG Overlay
+![ECG Overlay](assets/Figure_1_ECG_Overlay.png)
+
+### Figure 2 — Error Distribution
+![Error Distribution](assets/Figure_2_Error_Distribution.png)
+
+### Figure 3 — Correlation Heatmap
+![Correlation Heatmap](assets/Figure_3_Correlation_Heatmap.png)
+
+### Figure 4 — Mean Absolute Error per Lead
+![MAE Bar Chart](assets/Figure_4_MAE_BarChart.png)
+
+### Figure 5 — Image-to-Signal Conversion Pipeline
+![Image to Signal](assets/Figure_5_Image_to_Signal_Conversion.png)
 
 ## Results
 - Accurate ECG waveform reconstruction
@@ -50,7 +66,10 @@ presentation/ # Final PDF and PPTX presentation
 - SciPy
 - Matplotlib
 - Signal Processing
-
+## Presentation
+The full project presentation is available in the `presentation/` folder:
+- PDF (final slides)
+- PowerPoint version
 ## Author
 **Dr. Ali Ahmad**  
 MBBS | MSc Clinical & Molecular Microbiology | MSc Drug Discovery & Development  
