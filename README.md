@@ -1,5 +1,4 @@
 # ECG Image-to-Signal AI 🫀📈
-![ECG Image-to-Signal Reconstruction Pipeline](assets/graphical_abstract_ecg_pipeline.png)
 ## 🧠 Graphical Abstract
 
 ![ECG Image-to-Signal Reconstruction Pipeline](assets/graphical_abstract_ecg_pipeline.png)
