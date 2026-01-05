@@ -123,6 +123,34 @@ presentation/ # Final PDF and PPTX presentation
 - SciPy
 - Matplotlib
 - Signal Processing
+Limitations:
+
+While this study demonstrates the feasibility of reconstructing high-fidelity ECG time-series signals from image-based inputs, several limitations should be acknowledged:
+
+- Image Quality Dependency:Reconstruction accuracy is influenced by scan resolution, noise levels, paper grid visibility, and image artifacts such as folds, shadows, or uneven illumination.
+
+- Lead Configuration Variability:The current pipeline assumes standard 12-lead ECG layouts; non-standard formats or truncated leads may require additional preprocessing logic.
+
+- Ground Truth Availability:Model validation relies on paired image–signal datasets, which may be limited for older or archived ECG records lacking original digital signals.
+
+- Clinical Validation Scope:Although signal-level metrics (MAE, correlation) indicate high fidelity, prospective clinical validation against diagnostic outcomes was not performed.
+
+- Generalization Across Devices:ECGs originating from different manufacturers, print formats, or historical standards may exhibit domain shifts affecting reconstruction performance.
+- 🔮 Future Directions & Applications:
+
+This framework provides a foundation for multiple clinically and technologically impactful extensions:
+
+- Large-Scale Retrospective Cardiology Studies: Enables digitization of legacy ECG archives for population-level risk modeling and longitudinal outcome analysis.
+
+- Integration with Electronic Health Records (EHRs):Reconstructed ECG signals can be incorporated into structured EHR systems, supporting clinical decision support and AI-driven analytics.
+
+- AI Cardiology Pipelines:The output signals are compatible with downstream deep learning models for arrhythmia detection, ischemia classification, and cardiac risk stratification.
+
+- Wearable and Mobile Health Applications:The methodology can be adapted for reconstruction of ECG signals captured from mobile devices, photographs, or wearable displays.
+
+- Multi-Modal Fusion:Future work may integrate ECG reconstruction with imaging, laboratory data, or genomics to support precision cardiology.
+
+- **Regulatory and Clinical Translation:** With further validation, this approach could support FDA- and MHRA-aligned software-as-a-medical-device (SaMD) workflows for digital cardiology tools.
 ## Presentation
 The full project presentation is available in the `presentation/` folder:
 - PDF (final slides)
