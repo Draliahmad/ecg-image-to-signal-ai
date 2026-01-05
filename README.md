@@ -2,6 +2,7 @@
 ## 🧠 Graphical Abstract
 
 ![ECG Image-to-Signal Reconstruction Pipeline](assets/graphical_abstract_ecg_pipeline.png)
+**Figure:** End-to-end ECG image-to-signal reconstruction pipeline illustrating preprocessing, deep learning–based signal extraction, and validation against original ECG waveforms.
 
 🫀 Clinical Impact:
 Electrocardiograms (ECGs) remain a cornerstone of cardiovascular diagnosis; however, a vast proportion of historical and clinical ECG data exists only as scanned images or paper records, rendering them inaccessible to modern digital analytics and artificial intelligence (AI) pipelines. This project addresses this critical translational gap by enabling accurate reconstruction of time-series ECG signals directly from ECG images.
