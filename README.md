@@ -136,6 +136,20 @@ While this study demonstrates the feasibility of reconstructing high-fidelity EC
 - Clinical Validation Scope:Although signal-level metrics (MAE, correlation) indicate high fidelity, prospective clinical validation against diagnostic outcomes was not performed.
 
 - Generalization Across Devices:ECGs originating from different manufacturers, print formats, or historical standards may exhibit domain shifts affecting reconstruction performance.
+- Reproducibility:
+
+Reproducibility and transparency are central to the design of this project. To support independent validation and extension, the following measures have been incorporated:
+
+- Modular Pipeline Design:Each stage of the ECG image-to-signal workflow (preprocessing, signal extraction, modeling, and evaluation) is conceptually separable, enabling independent testing and replacement of components.
+
+- Standardized Evaluation Metrics:Reconstruction fidelity is assessed using interpretable signal-level metrics including mean absolute error (MAE) and Pearson correlation coefficient, facilitating comparison across studies.
+
+- Deterministic Processing Steps:Image preprocessing operations (grid removal, denoising, trace extraction) follow deterministic algorithms to minimize stochastic variability.
+
+- Open Documentation:All figures, methodological descriptions, and evaluation outputs are documented to ensure clarity and transparency for future users.
+
+- Extensibility:The framework is compatible with alternative architectures, datasets, and ECG formats, supporting reproducibility across research environments.
+
 - 🔮 Future Directions & Applications:
 
 This framework provides a foundation for multiple clinically and technologically impactful extensions:
