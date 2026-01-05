@@ -4,12 +4,16 @@ Electrocardiograms (ECGs) remain a cornerstone of cardiovascular diagnosis; howe
 Clinical and translational significance of this work includes:
 Digitization of Legacy ECG Records:
 Enables recovery of clinically meaningful ECG signals from scanned, printed, or archived ECG images, facilitating retrospective analysis and longitudinal patient monitoring.
+
 AI-Ready Cardiac Data Generation:
 Converts image-based ECGs into structured time-series data compatible with machine learning models for arrhythmia detection, risk stratification, and predictive cardiology.
+
 Preservation of Diagnostic Fidelity:
 Maintains waveform morphology, inter-lead relationships, and signal integrity essential for clinical interpretation across standard 12-lead ECG configurations.
+
 Support for Digital Health Integration:
 Facilitates integration of historical ECG data into electronic health records (EHRs), clinical decision-support systems, and population-scale cardiac datasets.
+
 Scalability for Global Health and Telecardiology:
 Particularly impactful in low-resource or remote settings where ECGs are commonly stored as images rather than raw digital signals.
 
